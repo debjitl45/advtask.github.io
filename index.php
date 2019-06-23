@@ -63,7 +63,7 @@
                 	<tr>
                 		<td><?php echo $row['name']; ?></td>
                 		<td><?php echo $row['pay']; ?></td>
-                        <td><?php echo date(Y-M-D); ?></td>
+                        <td><?php echo date("d/m/Y"); ?></td>
                         
                 		<td>
                 			<a href="index.php?edit=<?php echo $row['id']; ?>" 
